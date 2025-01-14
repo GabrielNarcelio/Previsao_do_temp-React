@@ -1,0 +1,39 @@
+.container {
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+input {
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  outline: none;
+  max-width: 60%;
+  margin-top: 30px;
+  font-height: bold;
+}
+button {
+  background-color: #ff9800;
+  border: 0;
+  padding: 10px;
+  border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
+  color: #ffffff;
+  font-height: bold;
+}
+button:hover {
+  background-color: #f57c00;
+}
+
+.error {
+  color: #ff0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
