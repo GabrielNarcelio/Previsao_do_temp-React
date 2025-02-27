@@ -19,8 +19,8 @@ function App() {
     try {
       const city = inputRef.current.value;
       const key = "9ad0ec4642639a4c9f00c990eee051f6";
-      const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`;
-      const url5Days = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=pt_br&units=metric`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`;
+      const url5Days = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}&lang=pt_br&units=metric`;
 
       const apiDataInfo = await axios.get(url);
       const apiInfo5Days = await axios.get(url5Days);
