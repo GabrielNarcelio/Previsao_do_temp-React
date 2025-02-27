@@ -49,7 +49,7 @@ function App() {
         <h1> 🌞 TempoZen 😎</h1>
         <input
           type="text"
-          placeholder="Digite o nome da cidade"
+          placeholder="🔍Digite o nome da cidade"
           ref={inputRef}
           onKeyPress={handleKeyPress}
         />
