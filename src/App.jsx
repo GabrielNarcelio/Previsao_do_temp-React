@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <h1>Previsão do tempo em React</h1>
+        <h1> 🌞 TempoZen 😎</h1>
         <input
           type="text"
           placeholder="Digite o nome da cidade"
